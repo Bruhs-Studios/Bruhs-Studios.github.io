@@ -1,0 +1,87 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. You need to restart the server every time you change this file.
+
+# ---
+# Site settings
+# ---
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Bruhs Studios
+description: >- # this means to ignore newlines until "baseurl:"
+  Games!
+  
+# ---
+# Theme settings
+# ---
+# Specifies the theme for your GitHub Pages site.
+# For more themes, see https://pages.github.com/themes/
+theme: jekyll-theme-tactile
+
+# ---
+# Build settings
+# ---
+# These settings are for the Jekyll build process.
+
+markdown: kramdown # The Markdown processor. kramdown is the default for GitHub Pages.
+plugins:
+  - jekyll-feed     # Creates an Atom feed for your posts
+  - jekyll-seo-tag  # Adds SEO metadata to pages
+
+# ---
+# Tactile Theme specific settings
+# ---
+# This setting controls whether to show the "View on GitHub" and "Download" buttons
+show_downloads: true
+
+# ---
+# GitHub repository information
+# ---
+# This is used by the theme and jekyll-seo-tag to generate links.
+# Replace 'your-github-username' and 'your-repo-name' with your actual details.
+
+github:
+  owner_name: Bruhs-Studios
+  owner_url: https://github.com/Bruhs-Studios
+  repository_url: https://github.com/Bruhs-Studios/Bruhs-Studios.github.io
+
+# ---
+# Optional: SEO Tag settings
+# ---
+# You can add more social media links which jekyll-seo-tag will use.
+# twitter:
+#   username: your-twitter-handle
+#   card: summary
+# facebook:
+#   app_id: 123456789
+#   publisher: 123456789
+#   admins: 123456789
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal list.
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
