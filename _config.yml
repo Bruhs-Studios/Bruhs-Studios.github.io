@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 # Theme settings
 # ---
 # Specifies the theme for your GitHub Pages site.
-# For more themes, see https://pages.github.com/themes/
-theme: jekyll-theme-tactile
+# Using remote_theme to pin to a specific version of the Tactile theme.
+remote_theme: pages-themes/tactile@v0.2.0
 
 # ---
 # Build settings
@@ -34,14 +34,15 @@ theme: jekyll-theme-tactile
 
 markdown: kramdown # The Markdown processor. kramdown is the default for GitHub Pages.
 plugins:
-  - jekyll-feed     # Creates an Atom feed for your posts
-  - jekyll-seo-tag  # Adds SEO metadata to pages
+  - jekyll-feed          # Creates an Atom feed for your posts
+  - jekyll-seo-tag       # Adds SEO metadata to pages
+  - jekyll-remote-theme  # Required for using remote themes
 
 # ---
 # Tactile Theme specific settings
 # ---
 # This setting controls whether to show the "View on GitHub" and "Download" buttons
-show_downloads: true
+show_downloads: false
 
 # ---
 # GitHub repository information
