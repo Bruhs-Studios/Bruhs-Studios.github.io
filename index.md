@@ -1,6 +1,4 @@
 ---
-# This is called "Front Matter" and it's where you set page-specific variables.
-# For this page, we're telling Jekyll to use the 'default' layout provided by the Tactile theme.
 layout: default
 ---
 
@@ -11,8 +9,8 @@ This is the homepage for our games. Check back soon for updates!
 You can use standard Markdown syntax to write your content.
 
 ## Our Games
-- Game 1 (Coming Soon)
-- Game 2 (In Development)
+* Game 1 (Coming Soon)
+* Game 2 (In Development)
 
 ### More Information
 Feel free to explore our projects on GitHub.
